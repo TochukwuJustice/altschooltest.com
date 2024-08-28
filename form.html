@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <div class="head">
+            <div class="logo"><img src="./asset/images/Altschool.JPG" alt="Altschool Logo"></div>
+            <h1 class="info">
+                <p>Already an AltSchooler?</p>
+                <a href="#">Sign In!</a>
+            </h1>
+        </div>
+        <div class="form-group">
+            <form>
+                <h2>Sign Up</h2>
+                <p class="sign-title">
+                    Take the next steps to apply at AltSchool Africa
+                </p>
+                <label for="first_name">First Name</label>
+            <input
+              type="text"
+              id="first_name"
+              name="first_name"
+              placeholder="Enter first name"
+            />
+            <label for="last_name">Last Name</label>
+            <input
+              type="text"
+              id="last_name"
+              name="last_name"
+              placeholder="Enter last name"
+            />
+
+            <label>Gender</label>
+            <select>
+              <option selected disabled>Select gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+
+
+            <label>Date of Birth</label>
+            <input type="date" id="date-of-birth" name="date_of_birth" />
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email address"
+            />
+
+            <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="08154387000"
+              />
+              <label class="country">Country</label>
+              <select>
+                <option selected disabled>Select your country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+              </select>
+              <label for="state_city">State/City of Residence</label>
+              <input
+                type="text"
+                id="state-city"
+                name="state_city"
+                placeholder="Enter your state of residence"
+              />
+              <label>How did you hear about us?</label>
+              <select>
+                <option selected disabled>Select channel</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Linkedin">Linkedin</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Friend">Friend</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Bill Board">Bill Board</option>
+                <option value="Sales officer">Sales officer</option>
+                <option value="Other">Other</option>
+              </select>
+              <label for="pass">Password</label>
+              <input
+                type="password"
+                id="pass"
+                name="pass"
+                placeholder="Enter password"
+              />
+              <label for="Confirm_password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirm_password"
+                name="Confirm_password"
+                placeholder="Enter password again"
+              />
+              <p>
+                <small
+                  >By clicking continue, I agree to
+                  <a href="#">Terms of Use</a> and acknowledge that I have read the
+                  <a href="#">Privacy Policy.</a></small
+                >
+              </p>
+              <footer>
+                <input type="submit" class="button" value="Submit" />
+              </footer>
+               <div class="foot1">
+                <a href="table.html">Go to Table</a>
+               </div> 
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
